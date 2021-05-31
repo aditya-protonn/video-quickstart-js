@@ -294,7 +294,7 @@ function draw() {
 
 async function joinRoom(token, connectOptions) {
     console.log('joinRoom')
-    await showPDF('somepdf.pdf')
+    await showPDF('https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf');
     const logger = Logger.getLogger('twilio-video');
     logger.setLevel('info');
 
